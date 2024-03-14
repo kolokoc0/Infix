@@ -62,7 +62,7 @@ def infix_to_suffix(vyraz):
 
     for i in temp:
         if i in operators:
-            stak.id_pop(i)
+            stak.pop()
             output.append(i)
     
     return output

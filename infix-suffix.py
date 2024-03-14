@@ -15,7 +15,6 @@ class Stack:
         if not self.is_empty():
             a = self.values[:-1]
             self.values = a
-            print(a)
             return a
         else:
             raise IndexError("Nothing in stack")
